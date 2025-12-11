@@ -29,4 +29,3 @@ jobs:
           build-args: USER=cbp-dev,TOKEN=${{ secrets.GH_SECURITY_PAT }}
           context: ${{ cloudbees.workspace }}
           dockerfile: Dockerfile
-          type: docker
